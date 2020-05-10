@@ -15,4 +15,4 @@ c) dołożyć metody do zapisu i odczytu z pliku stanu kont i ich numerów (moż
   c) w init podajemy kwotę początkową,
   d) zasymulować działanie kilku kont, przelewy pomiędzy kontami, w czasie kilku miesięcy.
   e) dołożyć metody do zapisu i odczytu z pliku stanu kont i ich numerów (można stosować sposób - jeden plik jeden obiekt - zapisać          obiekty do pliku)
-  
+5. Wykorzystując klasę Osoba, przygotować klasę Pracownik a do niej dołączyć klasę Wypłata, wykonać przesyłanie Wypłaty do pracownika. Wtym zadaniu proszę o samodzielne zaprojektowanie klas.
