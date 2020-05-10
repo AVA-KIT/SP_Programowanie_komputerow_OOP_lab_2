@@ -8,4 +8,11 @@ Wszystkie klasy pochodne przetestować (niektóre bazowe wg uznania), tworząc k
 a) Utworzyć przynajmniej po trzy nazwane obiekty każdej klasy. Z każdego obiektu wypisać dane podstawowe (można do tego przygotować pomocniczą metodę)
 b) obiekty przechowujące konta firmowe zapisać na liście, wywołać obydwie metody (płacenia należności) z listy.
 c) dołożyć metody do zapisu i odczytu z pliku stanu kont i ich numerów (można stosować sposób - jeden plik jeden obiekt) - zapisać obiekty do pliku
-3. Do poprzedniego zadania dopisać klasy przechowujące informacje o należnościach (wysokość kwoty i nr konta na który należy wpłacać), proponowana
+3. Do poprzedniego zadania dopisać klasy przechowujące informacje o należnościach (wysokość kwoty i nr konta na który należy wpłacać), proponowana nazwa klasy bazowej to TaxInfo a pochodne np. ZusInfo i PitInfo. Proszę zwrócić uwagę na kolejność implementacji klas. Skorzystać z nowo utworzonych klas w klasach z poprzedniego zadania, odpytać się klas Info o wartości wyświetlane przy płaceniu należności.
+4. Przygotować klasy opisujące konta, tym razem z podziałem na obrotowe i oszczędnościowe,
+  a) obydwa konta mają mieć możliwość wykonywania przelewów pomiędzy kontami (podajemy nr konta i kwoty),
+  b) konto oszczędnościowe może wykonać jeden przelew w określonym miesiącu, dodać też metodę ustawiającą licznik możliwych przelewów na      1 i naliczający odsetki na kontach oszczodnościowych (koniec miesiąca),
+  c) w init podajemy kwotę początkową,
+  d) zasymulować działanie kilku kont, przelewy pomiędzy kontami, w czasie kilku miesięcy.
+  e) dołożyć metody do zapisu i odczytu z pliku stanu kont i ich numerów (można stosować sposób - jeden plik jeden obiekt - zapisać          obiekty do pliku)
+  
